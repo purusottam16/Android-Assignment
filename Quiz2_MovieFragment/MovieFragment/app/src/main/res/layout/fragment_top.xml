@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TopFragment"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="HOME"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:id="@+id/titleTextView"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="BACK"
+        android:background="@android:color/transparent"
+        android:textSize="20sp"
+        android:id="@+id/backButton"
+        android:textColor="@android:color/white"/>
+
+</FrameLayout>
